@@ -32,7 +32,7 @@ As I progress through the 30 days, I will update this section with new projects.
 
 ## About the Developer
 
-This series of projects is being developed by [Your Name], a passionate web developer with a keen interest in modern web technologies, especially Next.js. My goal with these 30 projects is to sharpen my skills and share my learning journey with the community.
+This series of projects is being developed by [Muhammad Rehan], a passionate web developer with a keen interest in modern web technologies, especially Next.js. My goal with these 30 projects is to sharpen my skills and share my learning journey with the community.
 
 **Contact Information:**
 - **GitHub:** [Your GitHub](https://github.com/RehanTechForge)
