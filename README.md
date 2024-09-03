@@ -7,6 +7,7 @@ Welcome to my ambitious journey through 30 projects in 30 days using Next.js! Th
 ### Project 1: Countdown Timer
 
 **Description:**  
+
 The Countdown Timer is a robust and user-friendly application developed with Next.js and TypeScript, designed to help users efficiently track upcoming events or deadlines. Users can easily set a target date and time, and the app will dynamically display a real-time countdown. The interface is clean, ensuring that the time remaining is always presented in a clear and accessible manner. The application also offers essential features such as start, pause, and reset, allowing users to manage their countdowns with flexibility. The responsive design guarantees an optimal experience across both desktop and mobile devices.
 
 **Features:**
@@ -22,7 +23,31 @@ The Countdown Timer is a robust and user-friendly application developed with Nex
 - Tailwind CSS for styling
 - Shadcn UI for user interface components
 
-**GitHub Repository:** [Countdown Timer Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/count-down-timer)
+**GitHub Repository:** [Countdown Timer Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/01count-down-timer)
+
+**Live Demo:** [See the Countdown Timer in action!](#)
+
+### Project 2: Weather Widget
+
+**Description:** 
+
+The Weather Widget is a practical and user-friendly application developed with Next.js and TypeScript, designed to provide real-time weather updates based on user input. Users can enter their location, and the app will fetch and display current weather conditions, including temperature, humidity, and weather description for the specified city. The interface is clean and intuitive, ensuring that the weather information is presented clearly. The application is responsive, offering a seamless experience across both desktop and mobile devices.
+
+**Features:**
+- Location-based weather updates.
+- Displays current temperature and weather description.
+- Clean and intuitive user interface.
+- Responsive design for desktop and mobile devices.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/02weather-widget
+**GitHub Repository:** [Weather Widget Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/02weather-widget)
 
 **Live Demo:** [See the Countdown Timer in action!](#)
 
