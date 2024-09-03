@@ -46,7 +46,7 @@ The Weather Widget is a practical and user-friendly application developed with N
 - React for building the user interface
 - Tailwind CSS for styling
 - Shadcn UI for user interface components
-https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/02weather-widget
+
 **GitHub Repository:** [Weather Widget Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/02weather-widget)
 
 **Live Demo:** [See the Countdown Timer in action!](#)
