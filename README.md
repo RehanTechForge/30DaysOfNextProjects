@@ -51,6 +51,32 @@ The Weather Widget is a practical and user-friendly application developed with N
 
 **Live Demo:** [See the Countdown Timer in action!](#)
 
+### Project 3: Birthday Wish App
+
+**Description:** 
+
+The Birthday Wish App is a fun and interactive application created with Next.js and TypeScript, designed to celebrate special occasions in a unique way. Users can light candles, pop balloons, and trigger a vibrant confetti animation, making the birthday celebration memorable and engaging. The app’s interface is intuitive and user-friendly, ensuring a smooth experience for users of all ages. Framer Motion adds dynamic animations, enhancing the overall interactivity and visual appeal of the app.
+
+**Features:**
+
+- Light candles and pop balloons to interact with the app.
+- Confetti animation triggers upon completing the interactions.
+- Responsive design for seamless use on both desktop and mobile devices.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+- Framer Motion for smooth and engaging animations.
+- React Confetti for festive confetti effects.
+
+**GitHub Repository:** [Birthday Wish App Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/03birthday-wish)
+
+**Live Demo:** [See the Birthday Wish App in action!](#)
+
 ## Future Projects
 
 As I progress through the 30 days, I will update this section with new projects. Each project will aim to explore different aspects of Next.js and its ecosystem, pushing the boundaries of what can be achieved in a single day of coding.
