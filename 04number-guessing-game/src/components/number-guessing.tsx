@@ -28,7 +28,7 @@ export default function NumberGuessing(): JSX.Element {
   // useEffect to generate a new target number when the game starts or resumes
   useEffect(() => {
     if (gameStarted && !paused) {
-      const randomNumber: number = Math.floor(Math.random() * 3) + 1; // Generate a random number between 1 and 10
+      const randomNumber: number = Math.floor(Math.random() * 10) + 1; // Generate a random number between 1 and 10
       setTargetNumber(randomNumber); // Set the target number
     }
   }, [gameStarted, paused]); // Dependencies: gameStarted and paused
