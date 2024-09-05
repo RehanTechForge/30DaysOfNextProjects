@@ -77,6 +77,32 @@ The Birthday Wish App is a fun and interactive application created with Next.js 
 
 **Live Demo:** [See the Birthday Wish App in action!](#)
 
+### Project 4: Number Guessing Game
+
+**Description:** 
+
+The Number Guessing Game is an interactive and engaging application built using Next.js and TypeScript. It challenges users to guess a random number between 1 and 10. The game keeps track of the number of attempts and includes features such as start, pause, resume, and a "try again" option for replaying the game. The app provides a seamless user experience with clear feedback on attempts and a game-over screen when the correct number is guessed.
+
+**Features:**
+
+- Start, pause, resume, and try again functionalities.
+- Random number generation between 1 and 10.
+- Tracking of user attempts.
+- Game over message when the correct number is guessed.
+- Responsive design for a smooth experience across devices.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+
+**GitHub Repository:** [Birthday Wish App Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/04number-guessing-game)
+
+**Live Demo:** [See the Birthday Wish App in action!](#)
+
 ## Future Projects
 
 As I progress through the 30 days, I will update this section with new projects. Each project will aim to explore different aspects of Next.js and its ecosystem, pushing the boundaries of what can be achieved in a single day of coding.
