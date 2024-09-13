@@ -131,7 +131,7 @@ The Calculator App is a simple yet powerful tool developed using Next.js and Typ
 
 **Live Demo:** [See the Countdown Timer in action!](#)
 
-### Project 5: Digital Clock App
+### Project 6: Digital Clock App
 
 **Description:**
 
