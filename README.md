@@ -131,6 +131,32 @@ The Calculator App is a simple yet powerful tool developed using Next.js and Typ
 
 **Live Demo:** [See the Countdown Timer in action!](#)
 
+### Project 5: Digital Clock App
+
+**Description:**
+
+The Digital Clock App is a user-friendly tool developed using Next.js and TypeScript. This app displays the current time in both 24-hour and 12-hour formats, updating every second to ensure accurate timekeeping. With a sleek and minimal design, the app provides users with a clean interface, making it suitable for both desktop and mobile users.
+
+**Features:**
+
+- Displays current time in hours, minutes, and seconds.
+- Toggle between 24-hour and 12-hour formats.
+- Real-time clock updates every second.
+- Responsive design for seamless use across desktop and mobile devices.
+- Simple and elegant interface with a clear display of time.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+
+**GitHub Repository:** [Digital Clock Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/05calculator)
+
+**Live Demo:** [See the Digital Clock Repo App in action!](#)
+
 ## Future Projects
 
 As I progress through the 30 days, I will update this section with new projects. Each project will aim to explore different aspects of Next.js and its ecosystem, pushing the boundaries of what can be achieved in a single day of coding.
