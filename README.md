@@ -153,7 +153,7 @@ The Digital Clock App is a user-friendly tool developed using Next.js and TypeSc
 - Tailwind CSS for styling
 - Shadcn UI for user interface components
 
-**GitHub Repository:** [Digital Clock Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/05calculator)
+**GitHub Repository:** [Digital Clock Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/06digital-clock)
 
 **Live Demo:** [See the Digital Clock Repo App in action!](#)
 
