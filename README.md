@@ -133,6 +133,33 @@ The Calculator App is a simple yet powerful tool developed using Next.js and Typ
 
 ### Project 6: Digital Clock App
 
+### Project 7: Random Joke Generator
+
+**Description:**
+
+The Random Joke Generator is a fun and interactive web app built using Next.js and TypeScript. This app fetches random jokes from an API and displays them in an easy-to-read card format. Users can refresh the joke with a button click, making it a great way to bring some humor into everyday life.
+
+**Features:**
+
+- Fetches and displays a random joke from an external API.
+- Displays both the joke setup and punchline in a simple card layout.
+- Button to fetch a new joke with smooth transitions and a fun user interface.
+- Responsive design for optimal experience on both desktop and mobile devices.
+- Loading state to improve user experience while fetching jokes.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+- Official Joke API for fetching jokes
+
+**GitHub Repository:** [Random Joke Generator Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/06random-joke)
+
+**Live Demo:** [See the Random Joke Generator Repo App in action!](#)
+
 **Description:**
 
 The Digital Clock App is a user-friendly tool developed using Next.js and TypeScript. This app displays the current time in both 24-hour and 12-hour formats, updating every second to ensure accurate timekeeping. With a sleek and minimal design, the app provides users with a clean interface, making it suitable for both desktop and mobile users.
