@@ -133,6 +133,31 @@ The Calculator App is a simple yet powerful tool developed using Next.js and Typ
 
 ### Project 6: Digital Clock App
 
+**Description:**
+
+The Digital Clock App is a user-friendly tool developed using Next.js and TypeScript. This app displays the current time in both 24-hour and 12-hour formats, updating every second to ensure accurate timekeeping. With a sleek and minimal design, the app provides users with a clean interface, making it suitable for both desktop and mobile users.
+
+**Features:**
+
+- Displays current time in hours, minutes, and seconds.
+- Toggle between 24-hour and 12-hour formats.
+- Real-time clock updates every second.
+- Responsive design for seamless use across desktop and mobile devices.
+- Simple and elegant interface with a clear display of time.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+
+**GitHub Repository:** [Digital Clock Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/06digital-clock)
+
+**Live Demo:** [See the Digital Clock Repo App in action!](#)
+
+
 ### Project 7: Random Joke Generator
 
 **Description:**
@@ -160,17 +185,20 @@ The Random Joke Generator is a fun and interactive web app built using Next.js a
 
 **Live Demo:** [See the Random Joke Generator Repo App in action!](#)
 
+
+### Project 8: Color Picker
+
 **Description:**
 
-The Digital Clock App is a user-friendly tool developed using Next.js and TypeScript. This app displays the current time in both 24-hour and 12-hour formats, updating every second to ensure accurate timekeeping. With a sleek and minimal design, the app provides users with a clean interface, making it suitable for both desktop and mobile users.
+The Color Picker app is a simple and user-friendly tool developed using Next.js and TypeScript. This app allows users to select a color, view its HEX and RGB values, and copy the HEX value to their clipboard. With a clean and responsive design, it’s perfect for both desktop and mobile users looking for an easy way to pick colors for their projects.
 
 **Features:**
 
-- Displays current time in hours, minutes, and seconds.
-- Toggle between 24-hour and 12-hour formats.
-- Real-time clock updates every second.
-- Responsive design for seamless use across desktop and mobile devices.
-- Simple and elegant interface with a clear display of time.
+- Select a color using a color input field.
+- Display the selected color in real-time.
+- Show the selected color in both HEX and RGB formats.
+- Copy the HEX value to the clipboard with one click.
+- Responsive design for desktop and mobile devices.
 
 **Technologies Used:**
 
@@ -180,9 +208,62 @@ The Digital Clock App is a user-friendly tool developed using Next.js and TypeSc
 - Tailwind CSS for styling
 - Shadcn UI for user interface components
 
-**GitHub Repository:** [Digital Clock Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/06digital-clock)
+**GitHub Repository:** [Color Picker Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/08color-picker)
 
-**Live Demo:** [See the Digital Clock Repo App in action!](#)
+**Live Demo:** [See the Color Picker Repo App in action!](#)
+
+
+### Project 9: Tip Calculator
+
+**Description:**
+
+The Tip Calculator is a simple, intuitive web app built using Next.js and TypeScript. It allows users to input a bill amount and tip percentage to calculate both the tip and the total amount due. With a clean, minimal design and responsive layout, it's suitable for use on both desktop and mobile devices.
+
+**Features:**
+
+- Input fields for bill amount and tip percentage.
+- Automatically calculates the tip and total amount based on user input.
+- Real-time updates on the tip and total amounts.
+- Simple and elegant interface for ease of use.
+- Responsive design for optimal performance on desktop and mobile devices.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+
+**GitHub Repository:** [Tip Calculator Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/09tip-calculator)
+
+**Live Demo:** [See the Tip Calculator Repo App in action!](#)
+
+### Project 10: Password Generator
+
+**Description:**
+
+The Password Generator is a user-friendly web app created with Next.js and TypeScript. It allows users to generate secure passwords based on customizable options. Users can choose the length of the password and select which types of characters (uppercase, lowercase, numbers, and symbols) to include. The app features an intuitive interface with real-time updates and easy-to-use functionality.
+
+**Features:**
+
+- Customizable Password Length: Set the desired length of the generated password (between 8 and 32 characters).
+- Character Type Selection: Choose to include uppercase letters, lowercase letters, numbers, and symbols.
+- Password Generation: Generate a secure password based on selected criteria.
+- Copy to Clipboard: Easily copy the generated password to the clipboard with a single click.
+- Responsive Design: Suitable for both desktop and mobile devices.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+
+**GitHub Repository:** [Password Generator Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/10password-generator)
+
+**Live Demo:** [See the Password Generator Repo App in action!](#)
 
 ## Future Projects
 
@@ -194,6 +275,6 @@ This series of projects is being developed by **Muhammad Rehan**, a passionate w
 
 **Contact Information:**
 
-- **GitHub:** [Your GitHub](https://github.com/RehanTechForge)
-- **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/rehantechforge)
+- **GitHub:** [My GitHub](https://github.com/RehanTechForge)
+- **LinkedIn:** [My LinkedIn](https://www.linkedin.com/in/rehantechforge)
 - **Email:** muhammadrehan125768@gmail.com
