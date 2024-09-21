@@ -265,6 +265,31 @@ The Password Generator is a user-friendly web app created with Next.js and TypeS
 
 **Live Demo:** [See the Password Generator Repo App in action!](#)
 
+
+### HTML Preview App
+
+**Description:**
+
+The HTML Preview App is a web application built with React and TypeScript that allows users to input HTML code and see a live preview of their code. This user-friendly tool is perfect for web developers and learners who want to test HTML snippets quickly.
+
+## Features
+
+- **Live HTML Preview:** See real-time updates as you edit the HTML code.
+- **Predefined HTML Template:** Quickly paste a sample HTML structure for testing.
+- **Input Validation:** Alerts users if they try to generate a preview without valid HTML code.
+- **Responsive Design:** Works seamlessly on both desktop and mobile devices.
+
+## Technologies Used
+
+- **React** for building the user interface
+- **TypeScript** for type safety and enhanced development experience
+- **Tailwind CSS** for styling
+- **Custom UI Components** for better user experience
+
+**GitHub Repository:** [Preview App Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/13html-preview)
+
+**Live Demo:** [See the Preview Repo App in action!](#)
+
 ## Future Projects
 
 As I progress through the 30 days, I will update this section with new projects. Each project will aim to explore different aspects of Next.js and its ecosystem, pushing the boundaries of what can be achieved in a single day of coding.
