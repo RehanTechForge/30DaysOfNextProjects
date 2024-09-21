@@ -157,7 +157,6 @@ The Digital Clock App is a user-friendly tool developed using Next.js and TypeSc
 
 **Live Demo:** [See the Digital Clock Repo App in action!](#)
 
-
 ### Project 7: Random Joke Generator
 
 **Description:**
@@ -185,7 +184,6 @@ The Random Joke Generator is a fun and interactive web app built using Next.js a
 
 **Live Demo:** [See the Random Joke Generator Repo App in action!](#)
 
-
 ### Project 8: Color Picker
 
 **Description:**
@@ -211,7 +209,6 @@ The Color Picker app is a simple and user-friendly tool developed using Next.js 
 **GitHub Repository:** [Color Picker Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/08color-picker)
 
 **Live Demo:** [See the Color Picker Repo App in action!](#)
-
 
 ### Project 9: Tip Calculator
 
@@ -265,21 +262,72 @@ The Password Generator is a user-friendly web app created with Next.js and TypeS
 
 **Live Demo:** [See the Password Generator Repo App in action!](#)
 
+### Project 11: BMI Calculator
 
-### HTML Preview App
+**Description:**
+
+A user-friendly BMI (Body Mass Index) calculator that allows individuals to quickly calculate their BMI based on height and weight. This application provides instant feedback on BMI values and corresponding health categories.
+
+**Features:**
+
+- Input fields for height (cm) and weight (kg).
+- Real-time BMI calculation with clear display of results.
+- Categorization of BMI into Underweight, Normal, Overweight, and Obese.
+- Input validation to ensure positive values.
+- Smooth animations and a responsive design for a great user experience.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+- Framer Motion: For smooth animations and transitions.
+
+**GitHub Repository:** [BMI Calculator Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/11bmi-calculator)
+
+**Live Demo:** [See the BMI Calculator Repo App in action!](#)
+
+### Project 12: Unit Converter
+
+**Description:**
+
+A versatile unit converter that allows users to convert values between different units of length, weight, and volume. This application is designed to be intuitive and easy to use.
+
+**Features:**
+
+- Convert between various units of length, weight, and volume.
+- Supports categories like Millimeters, Kilometers, Grams, Liters, and more.
+- Input validation to ensure proper values are entered.
+- Clear display of the converted result.
+
+**Technologies Used:**
+
+- Next.js for the framework
+- TypeScript for type safety and enhanced development experience
+- React for building the user interface
+- Tailwind CSS for styling
+- Shadcn UI for user interface components
+
+**GitHub Repository:** [Unit Converter Repo](https://github.com/RehanTechForge/30DaysOfNextProjects/tree/main/12unit-converter)
+
+**Live Demo:** [See the Unit Converter Repo App in action!](#)
+
+### Project 13: HTML Preview App
 
 **Description:**
 
 The HTML Preview App is a web application built with React and TypeScript that allows users to input HTML code and see a live preview of their code. This user-friendly tool is perfect for web developers and learners who want to test HTML snippets quickly.
 
-## Features
+**Features**
 
 - **Live HTML Preview:** See real-time updates as you edit the HTML code.
 - **Predefined HTML Template:** Quickly paste a sample HTML structure for testing.
 - **Input Validation:** Alerts users if they try to generate a preview without valid HTML code.
 - **Responsive Design:** Works seamlessly on both desktop and mobile devices.
 
-## Technologies Used
+**Technologies Used**
 
 - **React** for building the user interface
 - **TypeScript** for type safety and enhanced development experience
