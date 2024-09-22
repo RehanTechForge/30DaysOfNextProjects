@@ -5,16 +5,6 @@ import { useState, useEffect, ChangeEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-// Type definition for the NumberGuessingComponent's state
-// interface NumberGuessingState {
-//   gameStarted: boolean;
-//   gameOver: boolean;
-//   paused: boolean;
-//   targetNumber: number;
-//   userGuess: number | string;
-//   attempts: number;
-// }
-
 // Defining the NumberGuessingComponent function component
 export default function NumberGuessing(): JSX.Element {
   // State variables to manage the game state
