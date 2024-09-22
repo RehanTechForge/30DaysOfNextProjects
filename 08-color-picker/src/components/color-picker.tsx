@@ -3,7 +3,6 @@ import { Input } from "./ui/input";
 import React, { ChangeEvent, useState } from "react";
 import { Button } from "./ui/button";
 import { Card, CardDescription, CardTitle } from "./ui/card";
-
 const ColorPicker = () => {
   const [color, setColor] = useState<string>("#000000");
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>): void => {

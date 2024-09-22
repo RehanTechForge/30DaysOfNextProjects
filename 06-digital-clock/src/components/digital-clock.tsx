@@ -2,7 +2,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
-
+import { motion } from "framer-motion";
 const DigitalClock = () => {
   const [time, setTime] = useState(new Date());
   const [mount, setMount] = useState<boolean>(false);
@@ -28,20 +28,33 @@ const DigitalClock = () => {
   }, [time, is24Hour, mount]);
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center h-screen bg-gradient-to-br from-gray-800 to-gray-900">
       {/* Center the digital clock within the screen */}
-      <Card className="p-8 shadow-lg rounded-2xl">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="p-8 shadow-lg rounded-2xl bg-white dark:bg-gray-800"
+      >
         <div className="flex flex-col items-center justify-center">
           {/* Header with title */}
-          <div className="text-2xl font-bold tracking-tight">Digital Clock</div>
+          <div className="text-2xl font-bold tracking-tight text-gray-800 dark:text-gray-200">
+            Digital Clock
+          </div>
           {/* Description */}
           <div className="text-sm text-gray-500 dark:text-gray-400 mb-4">
             Display current time in hours, minutes, and seconds.
           </div>
-          {/* Display the formatted time */}
-          <div className="text-6xl font-bold tracking-tight">
+          {/* Display the formatted time with animation */}
+          <motion.div
+            key={formattedTime} // Use key to trigger reanimation on time change
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.3 }}
+            className="text-6xl font-bold tracking-tight text-gray-800 dark:text-gray-200"
+          >
             {formattedTime}
-          </div>
+          </motion.div>
           {/* Buttons to switch between 24-hour and 12-hour formats */}
           <div className="mt-4 flex items-center">
             <Button
@@ -60,7 +73,7 @@ const DigitalClock = () => {
             </Button>
           </div>
         </div>
-      </Card>
+      </motion.div>
     </div>
   );
 };

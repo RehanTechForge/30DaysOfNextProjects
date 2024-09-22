@@ -3,6 +3,7 @@ import React, { ChangeEvent, useState } from "react";
 import { Button } from "./ui/button";
 import { Textarea } from "./ui/textarea";
 import { predefinedHTML } from "./pre-definedhtml";
+import { motion } from "framer-motion";
 const HTMLPreview = () => {
   const [htmlCode, sethtmlCode] = useState<string>("");
   const [previewHTML, setPreviewHTML] = useState<string>("");

@@ -5,7 +5,7 @@ import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Card } from "./ui/card";
 import { Checkbox } from "./ui/checkbox";
-
+import { motion } from "framer-motion";
 const PasswordGenerator = () => {
   const [length, setLength] = useState<number>(16);
   const [uppercase, setUppercase] = useState<boolean>(true);

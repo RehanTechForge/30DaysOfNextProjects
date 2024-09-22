@@ -16,7 +16,7 @@ import {
   SelectItem,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-
+import { motion } from "framer-motion";
 // Conversion rates for various units categorized by length, weight, and volume
 const conversionRates: Record<string, Record<string, number>> = {
   length: {

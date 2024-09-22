@@ -1,5 +1,5 @@
 "use client"; // Enables client-side rendering for this component
-
+import { motion } from "framer-motion";
 // Importing necessary hooks and components from React and custom components
 import { useState, useEffect, ChangeEvent } from "react";
 import { Button } from "@/components/ui/button";
@@ -80,18 +80,29 @@ export default function NumberGuessing(): JSX.Element {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-gray-800 to-black">
       {/* Main container for the game */}
-      <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md"
+      >
         {/* Title of the game */}
         <h1 className="text-3xl font-bold text-center mb-2 text-black">
-          Number Guessing Game {targetNumber}
+          Number Guessing Game
         </h1>
         {/* Description of the game */}
         <p className="text-center text-black mb-4">
           Try to guess the number between 1 and 10!
         </p>
+
         {/* Conditional rendering: show start button if game hasn't started */}
         {!gameStarted && (
-          <div className="flex justify-center mb-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-center mb-4"
+          >
             {/* Button to start the game */}
             <Button
               onClick={handleStartGame}
@@ -99,32 +110,27 @@ export default function NumberGuessing(): JSX.Element {
             >
               Start Game
             </Button>
-          </div>
+          </motion.div>
         )}
+
         {/* Conditional rendering: show game controls if game started and not over */}
         {gameStarted && !gameOver && (
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <div className="flex justify-center mb-4">
-              {/* Button to resume the game if paused */}
-              {paused ? (
-                <Button
-                  onClick={handleResumeGame}
-                  className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
-                >
-                  Resume
-                </Button>
-              ) : (
-                /* Button to pause the game */
-                <Button
-                  onClick={handlePauseGame}
-                  className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
-                >
-                  Pause
-                </Button>
-              )}
+              {/* Button to resume or pause the game */}
+              <Button
+                onClick={paused ? handleResumeGame : handlePauseGame}
+                className={`bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded`}
+              >
+                {paused ? "Resume" : "Pause"}
+              </Button>
             </div>
 
-            <div className="flex justify-center mb-4">
+            <div className="flex justify-center mb-4 text-gray-700">
               {/* Input field for user's guess */}
               <Input
                 type="number"
@@ -145,11 +151,16 @@ export default function NumberGuessing(): JSX.Element {
               {/* Display number of attempts */}
               <p>Attempts: {attempts}</p>
             </div>
-          </div>
+          </motion.div>
         )}
+
         {/* Conditional rendering: show game over message if game is over */}
         {gameOver && (
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <div className="text-center mb-4 text-black">
               {/* Game over message */}
               <h2 className="text-2xl font-bold">Game Over!</h2>
@@ -164,9 +175,9 @@ export default function NumberGuessing(): JSX.Element {
                 Try Again
               </Button>
             </div>
-          </div>
+          </motion.div>
         )}
-      </div>
+      </motion.div>
     </div>
   );
 }

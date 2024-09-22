@@ -13,7 +13,7 @@ import { Label } from "@/components/ui/label"; // Import custom Label component
 import { Input } from "@/components/ui/input"; // Import custom Input component
 import { FilePenIcon, PlusIcon, TrashIcon } from "lucide-react"; // Import icons from lucide-react
 import { format } from "date-fns"; // Import date formatting utility
-
+import { motion } from "framer-motion";
 // Define the Expense type
 type Expense = {
   id: number;

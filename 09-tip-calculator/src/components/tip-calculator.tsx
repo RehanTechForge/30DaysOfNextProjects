@@ -11,7 +11,7 @@ import {
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
-
+import { motion } from "framer-motion";
 const TipCalculator = () => {
   const [billAmount, setBillAmount] = useState<number | null>(null);
   const [tipAmount, setTipAmount] = useState<number | null>(null);
