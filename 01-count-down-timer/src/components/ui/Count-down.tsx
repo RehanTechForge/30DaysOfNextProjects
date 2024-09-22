@@ -1,5 +1,5 @@
 "use client"; // Enables client-side rendering for this component
-
+import { motion } from "framer-motion";
 import { useState, useRef, useEffect, ChangeEvent } from "react"; // Import React hooks and types
 import { Input } from "@/components/ui/input"; // Import custom Input component
 import { Button } from "@/components/ui/button"; // Import custom Button component
@@ -104,60 +104,80 @@ export default function Countdown() {
   // JSX return statement rendering the Countdown UI
   return (
     // Container div for centering the content
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
+    // Container div for centering the content
+    <motion.div
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5, ease: "easeInOut" }}
+      className="flex flex-col items-center justify-center h-screen bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900"
+    >
       {/* Timer box container */}
-      <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-8 w-full max-w-md">
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeInOut" }}
+        className="bg-white dark:bg-gray-800 shadow-xl rounded-lg p-8 w-full max-w-md transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl"
+      >
         {/* Title of the countdown timer */}
-        <h1 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-200 text-center">
+        <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100 text-center">
           Countdown Timer
         </h1>
+
         {/* Input and set button container */}
-        <div className="flex items-center mb-6">
+        <div className="flex items-center mb-8 space-x-4">
           <Input
             type="number"
             id="duration"
             placeholder="Enter duration in seconds"
             value={duration}
             onChange={handleDurationChange}
-            className="flex-1 mr-4 rounded-md border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200"
+            className="flex-1 rounded-lg border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition duration-300"
           />
-          <Button
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             onClick={handleSetDuration}
-            variant="outline"
-            className="text-gray-800 dark:text-gray-200"
+            className="px-6 py-2 rounded-lg bg-blue-600 text-white dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-400 transition duration-300"
           >
             Set
-          </Button>
+          </motion.button>
         </div>
+
         {/* Display the formatted time left */}
-        <div className="text-6xl font-bold text-gray-800 dark:text-gray-200 mb-8 text-center">
+        <div className="text-7xl font-bold text-gray-900 dark:text-gray-100 mb-10 text-center">
           {formatTime(timeLeft)}
         </div>
+
         {/* Buttons to start, pause, and reset the timer */}
-        <div className="flex justify-center gap-4">
-          <Button
+        <div className="flex justify-center gap-6">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             onClick={handleStart}
-            variant="outline"
-            className="text-gray-800 dark:text-gray-200"
+            className="px-6 py-2 rounded-lg bg-green-500 text-white dark:bg-green-400 hover:bg-green-600 dark:hover:bg-green-300 transition duration-300"
           >
             {isPaused ? "Resume" : "Start"}
-          </Button>
-          <Button
+          </motion.button>
+
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             onClick={handlePause}
-            variant="outline"
-            className="text-gray-800 dark:text-gray-200"
+            className="px-6 py-2 rounded-lg bg-yellow-500 text-white dark:bg-yellow-400 hover:bg-yellow-600 dark:hover:bg-yellow-300 transition duration-300"
           >
             Pause
-          </Button>
-          <Button
+          </motion.button>
+
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
             onClick={handleReset}
-            variant="outline"
-            className="text-gray-800 dark:text-gray-200"
+            className="px-6 py-2 rounded-lg bg-red-500 text-white dark:bg-red-400 hover:bg-red-600 dark:hover:bg-red-300 transition duration-300"
           >
             Reset
-          </Button>
+          </motion.button>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
