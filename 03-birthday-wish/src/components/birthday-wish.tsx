@@ -1,5 +1,4 @@
 "use client"; // Enables client-side rendering for this component
-
 // Import necessary dependencies
 import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
