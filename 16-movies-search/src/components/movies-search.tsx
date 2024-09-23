@@ -48,9 +48,14 @@ const MoviesSearch = () => {
       }
       setLoading(false);
       setMovieDetails(data);
-    } catch (error: any) {
-      console.log(`Error While Fetching Movies ${error.message}`);
-      setError(error.message);
+    } catch (error) {
+      if (error instanceof Error) {
+        console.log(`Error While Fetching Movies: ${error.message}`);
+        setError(error.message);
+      } else {
+        console.log("An unknown error occurred");
+        setError("An unknown error occurred");
+      }
     } finally {
       setLoading(false);
     }
