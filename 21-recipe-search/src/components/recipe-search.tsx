@@ -3,7 +3,7 @@
 import React, { useState, FormEvent } from "react"; // Import useState and FormEvent from React
 import { Input } from "@/components/ui/input"; // Import custom Input component
 import { Button } from "@/components/ui/button"; // Import custom Button component
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"; // Import custom Card components
+import { Card, CardContent } from "@/components/ui/card"; // Import custom Card components
 import Link from "next/link"; // Import Link component from Next.js
 import { SearchIcon } from "lucide-react"; // Import SearchIcon from lucide-react
 import ClipLoader from "react-spinners/ClipLoader";
